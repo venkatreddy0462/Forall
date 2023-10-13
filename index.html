@@ -1,49 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oasis Infobyte</title>
+    <title>Prosuc</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="js/js.js">  
+        </script>  
+        
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <img class="logo" src="images/prosuc-high-resolution-logo-black-on-transparent-background.png">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse justify-content-end navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav nav-pills">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Results</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Materials</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Branch
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">CSE</a>
-                <a class="dropdown-item" href="#">ECE</a>
-                <a class="dropdown-item" href="#">EEE</a>
-                <a class="dropdown-item" href="#">AI-ML</a>
-                <a class="dropdown-item" href="#">CIVIL-MECH</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Support</a>
-              </li>
-          </ul>
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="input-group mb-0">
+                        <input type="text" class="form-control input-text" placeholder="Search . ."
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-lg" type="button"><i
+                                    class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-nav nav-item">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Results</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Materials</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Branch
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">CSE</a>
+                        <a class="dropdown-item" href="#">ECE</a>
+                        <a class="dropdown-item" href="#">EEE</a>
+                        <a class="dropdown-item" href="#">AI-ML</a>
+                        <a class="dropdown-item" href="#">CIVIL</a>
+                        <a class="dropdown-item" href="#">MECH</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
+
+    <section class="bannerBgImage " style="max-width: 1600px;" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 bannerText">
+                    <h1 class="bannerTitle" style="font-size:6.5vw">The One Stop For All learners . . !</h1>
+                    <p class="bannerDesc">We add a step towards your sucess.</p>
+                    <button class="btn btn-outline-dark active my-auto w-25 my-sm-0 btn-warning text-dark-emphasis "
+                        type="submit" style="font-size:2vw">explore all -></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bannerBgImage1" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 bannerText1">
+                    <h1 class="bannerTitle1" style="font-size:4vw">Know Your Performance.</h1>
+                    <p class="bannerDesc1">check your results here . . </p>
+                    <button class="btn bannerDesc1 btn-outline-dark active my-auto align-content-lg-start w-25 my-sm-0 btn-warning text-dark-emphasis "
+                        type="submit" style="font-size:2vw">results -></button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
