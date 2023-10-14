@@ -301,6 +301,9 @@ body {
     font-weight: 700;
 }
 
+.team{
+margin-top: 10vw;
+}
 @media screen and (max-width: 320px) {
     .bannerBgImage {
         margin-top: 23vw;
@@ -355,5 +358,8 @@ body {
 
     .card-title1 {
         margin-top: 45vw;
+    }
+    .team {
+        margin-top: 250vw;
     }
 }
