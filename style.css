@@ -22,7 +22,7 @@
 
 .bannerBgImage {
     height: 60vW;
-    background: url("/images/opening\ banner.jpg");
+    background: url("/main/opening\ banner.jpg");
     background-size: cover;
     position:inherit;
     margin-right: 0%;
