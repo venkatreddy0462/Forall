@@ -22,7 +22,7 @@
 
 .bannerBgImage {
     height: 60vW;
-    background: url("/images/opening\ banner.jpg");
+    background: url("opening\ banner.jpg");
     background-size: cover;
     position:inherit;
     margin-right: 0%;
@@ -56,7 +56,7 @@
 
 .bannerBgImage1 {
     height: 51vW;
-    background: url("/images/result.jpg");
+    background: url("result.jpg");
     background-size: cover;
     position:relative;
     align-items: center;
