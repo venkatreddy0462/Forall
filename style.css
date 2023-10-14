@@ -304,6 +304,16 @@ body {
 .team{
 margin-top: 10vw;
 }
+
+.partner {
+    margin-top: 5vw;
+}
+
+.partner-img {
+    height: 50vw;
+    margin-left: 20vw;
+    float: right;
+}
 @media screen and (max-width: 320px) {
     .bannerBgImage {
         margin-top: 23vw;
@@ -361,5 +371,74 @@ margin-top: 10vw;
     }
     .team {
         margin-top: 250vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .bannerBgImage {
+        margin-top: 10vw;
+    }
+
+    .button {
+        font-size: 2.5vw;
+        font-weight: 400;
+        padding: .35rem .65rem;
+    }
+
+    .bannerDesc {
+        font-size: 3vw;
+        width: 60%;
+    }
+
+    .bannerDesc1 {
+        font-size: 3vw;
+    }
+
+    .bannerText01 {
+        margin-left: 20vw;
+    }
+
+    .bannerTitle2 {
+        margin-top: 25vw;
+        width: 100%;
+        margin-left: 5vw;
+
+    }
+
+    .bannerDesc2 {
+
+        font-size: 3vw;
+        margin-left: 9vw;
+        width: 100%;
+
+    }
+
+    .bannerDesc3 {
+        margin-top: 5vw;
+        font-size: 3vw;
+        width: 50%;
+        margin-left: 0vw;
+    }
+
+    .card-text1 {
+        font-size: small;
+        width: 100%;
+    }
+
+    .card-title1 {
+        margin-top: 45vw;
+    }
+
+    .team {
+        margin-top: 70vw;
+    }
+
+    .partner {
+        margin-top: -35vw;
+    }
+    .partner-img {
+        height: 50vw;
+        margin-left: -10vw;
+        float: right;
     }
 }
